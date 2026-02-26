@@ -11,27 +11,31 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Guesser</title>
+        <title>Generator</title>
+
+        <style>
+            body {font-family: sans-serif; text-align: center; margin-top: 50px;}
+            .spacer {margin-bottom: 50px;}
+            .result-box {color: red; font-size: 50px; font-weight: bold; min-height: 60px;}
+            input { padding: 10px; font-size: 16px
+            
+            }
+            button { padding: 10px 20px; font-size: 16px; cursor: pointer;}
+        </style>
     </head>
     <body>
         <h1 style="text-align: center;">Random number generator</h1>
 
-        <span style="display: inline-block; width: 300px; height: 50px;"></span>
-
-        <h3 style="text-align: center;">Number you choose will be the highest number, generator can generate</h3>
+        <h3 style="text-align: center;" style="margin: 100;">Number you choose will be the highest number, generator can generate</h3>
 
         <form style="text-align: center;" method="get">
-            <input type="text" name="num" placeholder="Enter an ending number">
+            <input type="text" name="num" placeholder="Enter an ending number" autofocus>
             <button type="submit">Submit</button>
         </form>
-
-        <span style="display: inline-block; width: 300px; height: 50px;"></span>
 
         <div class="result" style="text-align: center; color: red; font-size: 50px;">
             <?php echo $next; ?>
         </div>
-
-        <span style="display: inline-block; width: 300px; height: 100px;"></span>
 
         <div style="text-align: center;">
             <img src="target.png" style="width: 400px; height: 300px; ">
