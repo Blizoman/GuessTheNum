@@ -1,5 +1,7 @@
 # GuessTheNum (Web)
 
+! Projekt vznikol s cieľom overenia schopnosti integrácie LLM nástroja Claude Code v prostredí Githubu.
+
 Jednoduchá webová hra **Hádaj číslo**, postavená na čistom PHP (bez frameworkov
 a bez databázy) ako osobný projekt na učenie sa server-side skriptovania
 a spracovania HTTP requestov.
